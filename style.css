@@ -3,10 +3,16 @@
 nav {
     display: flex;
     justify-content: center;
+    background-color: lightgray;
+    height: 10rem;
+}
+nav:hover {
+    background-color: beige;
 }
 .tim {
     width: 15rem;
     height: auto;
+    margin-left: 40%;
 }
 .edward {
     width: 12rem;
@@ -48,7 +54,7 @@ nav {
 }
 .button {
     border-radius: 30px;
-    background-color: lightgray;
+    background-color: gray;
     text-align: center;
     width: 15rem;
     margin: auto;
