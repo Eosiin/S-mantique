@@ -40,7 +40,7 @@
     <section>
         <article class="all-browsers">
             <h2 id="Biographie"> Biographie</h2>
-            <article class="browser">
+            <div class="container">
                 <p><b>Tim Burton</b> est un réalisateur, scénariste et producteur de cinéma américain. Qui pointe le
                     bout de son nez le 25
                     août
@@ -75,15 +75,11 @@
                     dessin, il
                     gagne un concours organisé pour décorer les camions de la ville.</p>
 
-                <iframe margin-left="40%" width="350" height="300" src="https://www.youtube.com/embed/QQv97G-ZIBA"
-                    title="YouTube video player" frameborder="0"
+                <iframe class="jordan" src="https://www.youtube.com/embed/QQv97G-ZIBA" title="YouTube video player"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-
-            </article>
-
-
-
+            </div>
         </article>
     </section>
 
@@ -254,25 +250,27 @@
             </div>
         </article>
     </section>
-    <h2 id="NousContacter">Nous contacter</h2>
-    <article class="all-browsers browser">
 
-        <form method="post" action="traitement.php">
-            <div class="formulaire"><label for="email"> Email :</label>
-                <input type="text" id="email" name="email"></div>
+    <section class="all-browsers">
+        <h2 id="NousContacter"><div class="contact">Nous contacter</div></h2>
+        <div class="container" class="contact">
+            <form method="post" action="traitement.php">
+                <div class="formulaire"><label for="email"> Email :</label>
+                    <input type="text" id="email" name="email"></div>
 
 
-            <div class="formulaire"><label for="objet"> Objet :</label>
-                <input type="text" name="email"></div>
+                <div class="formulaire"><label for="objet"> Objet :</label>
+                    <input type="text" name="email"></div>
 
-            <div class="formulaire"><label for="sujet">Sujet :</label>
-                <textarea id="objet" name="objet"></textarea></div>
+                <div class="formulaire"><label for="sujet">Sujet :</label>
+                    <textarea id="objet" name="objet"></textarea></div>
 
-            <div><input type="submit">
+                <div><input type="submit">
 
-            </div>
-        </form>
-    </article>
+                </div>
+            </form>
+        </div>
+    </section>
 
 </body>
 

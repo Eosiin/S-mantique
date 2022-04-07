@@ -1,57 +1,75 @@
-.titre { text-align: center;
+.titre {
+    text-align: center;
 }
+
 nav {
     display: flex;
     justify-content: center;
-    background-color: lightgray;
+    background-color:rgb(240, 175, 132) ;
+    
     height: 10rem;
 }
+
 nav:hover {
     background-color: beige;
 }
+
 .tim {
     width: 15rem;
     height: auto;
     margin-left: 40%;
 }
+
 .edward {
     width: 12rem;
     height: auto;
 }
+
 .sleepy {
     width: 12rem;
     height: auto;
 }
+
 .big {
     width: 12rem;
     height: auto;
 }
+
 .charlie {
     width: 15rem;
     height: auto;
 }
+
 .cote {
     display: flex;
 }
+
 .all-browsers {
     margin: 0;
-    padding : 5px;
-    background-color: lightgray;
+    padding: 5px;
+    background-color: rgb(240, 175, 132);
 }
-.all-browsers > h2, .browser {
-    margin : 10px;
+
+.all-browsers>h2,
+.browser {
+    margin: 10px;
     padding: 5px;
 }
+
 .browser {
     background: white;
 }
-.browser> h3, p{
-    margin : 4px;
+
+.browser>h3,
+p {
+    margin: 4px;
     font-size: 90%;
 }
+
 .formulaire {
     margin: 2rem;
 }
+
 .button {
     border-radius: 30px;
     background-color: gray;
@@ -61,6 +79,24 @@ nav:hover {
     padding: 0.5rem 0;
     text-decoration: none;
 }
-.button:hover{
+
+.button:hover {
     background-color: red;
+}
+
+.jordan {
+    display: block;
+    width: 25rem;
+    height: 15rem;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: white;
+    padding: 1rem;
+}
+
+.contact {
+    text-align: center;
+    display: block;
 }
