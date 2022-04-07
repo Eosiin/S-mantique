@@ -5,8 +5,8 @@
 nav {
     display: flex;
     justify-content: center;
-    background-color:rgb(240, 175, 132) ;
-    
+    background-color: rgb(240, 175, 132);
+
     height: 10rem;
 }
 
@@ -99,4 +99,12 @@ p {
 .contact {
     text-align: center;
     display: block;
+    padding: 0.5rem 0;
+
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
