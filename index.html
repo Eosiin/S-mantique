@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h1>TIM BURTON</h1>
+        <h1 class="titre">TIM BURTON</h1>
     </header>
     <nav>
         <ul>
@@ -195,8 +195,10 @@
         <article class="all-browsers">
 
             <h2>Charlie et la chocolaterie (2005)</h2>
-            <div class="cote"><img class="charlie" src="Charlie_et_la_chocolaterie.jpg"
-                    alt="Charlie et la chocolaterie">
+            <div class="cote">
+                <div>
+                    <img class="charlie" src="Charlie_et_la_chocolaterie.jpg" alt="Charlie et la chocolaterie">
+                </div>
 
                 <article class="browser">
                     <div>
@@ -244,15 +246,19 @@
             </div>
         </article>
     </section>
+    <h1 id="Nous contacter">Nous contacter</h1>
+    <form method="post" action="traitement.php">
+        <label for="email"> Email :</label>
+        <input type="text" id="email" name="email">
 
 
+        <label for="objet"> Objet :</label>
+        <input type="" text" id="objet" name="email">
 
+        <label for="sujet">Sujet :</label>
+        <textarea id="objet" name="objet"></textarea>
 
-
-
-
-
-
-</body>
-
-</html>
+        <input type="submit" </form> 
+    
+    
+    </body> </html>
